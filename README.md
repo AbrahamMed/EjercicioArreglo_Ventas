@@ -1,5 +1,5 @@
 # EjercicioArreglo_Ventas
-Sistema de Gestión de ventas 
+
 Este codigo se basa en un arreglo bidimensional, el cual se centra en almacenar, buscar, eliminar y visualizar las ventas que se producen a lo largo de un año o los 12 meses dentro de tres departamentos, que son Ropa, Deportes y Jugueteria. 
 El codigo incluye 4 metódos:
 1 - Registrar venta: Este método permite ingresar una nueva venta específica. Recibe como parámetros el mes, el departamento y el monto de la venta; además de hacer  una validación para revisar si el mes esté en el rango correcto (1-12) y que el departamento sea válido (0-2). Por ultimo, calcula el índice para la matriz (ajustando el mes a base 0) y guarda el monto en la posición establecida en la matriz.
